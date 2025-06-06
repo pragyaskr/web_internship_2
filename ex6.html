@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infomax Computer Academy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0d000;
+            color: #333;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #f0d000;
+        }
+
+        .header h1 {
+            color: #8B0000;
+            font-size: 48px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            margin-bottom: 10px;
+        }
+
+        .navigation {
+            background-color: #f0d000;
+            border-top: 3px solid #8B0000;
+            border-bottom: 3px solid #8B0000;
+            padding: 10px 0;
+            margin-bottom: 20px;
+        }
+
+        .nav-links {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .nav-links a {
+            color: #8B0000;
+            text-decoration: underline;
+            margin-right: 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+
+        .nav-links a:hover {
+            color: #660000;
+        }
+
+        .separator {
+            color: #8B0000;
+            margin: 0 5px;
+        }
+
+        .main-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            gap: 30px;
+        }
+
+        .content-left {
+            flex: 2;
+        }
+
+        .content-right {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .section-title {
+            color: #000;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .section-content {
+            margin-bottom: 30px;
+            line-height: 1.6;
+            color: #000;
+            font-size: 14px;
+        }
+
+        .student-image {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            
+        }
+
+        .registration-section {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+        }
+
+        .registration-text {
+            color: #000;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .click-here-link {
+            color: #8B0000;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        .click-here-link:hover {
+            color: #660000;
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                flex-direction: column;
+            }
+            
+            .header h1 {
+                font-size: 36px;
+            }
+            
+            .nav-links a {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>INFOMAX<br>COMPUTER ACADEMY</h1>
+    </header>
+
+    <nav class="navigation">
+        <div class="nav-links">
+            <a href="#home">HOME</a>
+            <span class="separator">|</span>
+            <a href="#about">ABOUT US</a>
+            <span class="separator">|</span>
+            <a href="#courses">COURSES</a>
+            <span class="separator">|</span>
+            <a href="#nielit">NIELIT</a>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="content-left">
+            <section>
+                <h2 class="section-title">Who We Are?</h2>
+                <div class="section-content">
+                    <p>Infomax is Computer Academy which provides high quality computer education at a very high standard at a low cost.</p>
+                    <br>
+                    <p>ICA's mission is to create a pool of high quality software professionals who will meet the demanding needs of multinational organizations for tomorrow's challenges.</p>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="section-title">What We Offer?</h2>
+                <div class="section-content">
+                    <p>We are committed to provide technology-based education to all sections of the society, for the overall development of the country through continual improvements of quality management system to achieve our objectives of promoting younger generation towards prosperity.</p>
+                </div>
+            </section>
+
+            <div class="registration-section">
+                <p class="registration-text">Dear Student O Level Registration Start now for Registration <a href="#" class="click-here-link">Click Here</a></p>
+            </div>
+        </div>
+
+        <div class="content-right">
+            <img src="https://png.pngtree.com/png-clipart/20240919/original/pngtree-person-working-on-laptop-png-image_16043860.png" class="student-image">
+        </div>
+    </main>
+</body>
+</html>
